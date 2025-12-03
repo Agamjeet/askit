@@ -1,10 +1,12 @@
+'use client';
+
 export default function Offer() {
     return (
         <section className="py-32 bg-white text-black relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-black to-transparent opacity-10"></div>
 
             <div className="container mx-auto px-4">
-                <div className="max-w-4xl mx-auto text-center">
+                <div className="max-w-4xl mx-auto text-center animate-fade-in-up">
                     <h2 className="text-5xl md:text-7xl font-black mb-12 tracking-tight">
                         THE <span className="italic font-serif font-normal">PILOT</span> PROGRAM
                     </h2>

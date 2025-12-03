@@ -1,8 +1,10 @@
+'use client';
+
 export default function Contact() {
     return (
         <section id="contact" className="py-32 bg-black border-t border-white/5">
             <div className="container mx-auto px-4 text-center">
-                <div className="max-w-3xl mx-auto">
+                <div className="max-w-3xl mx-auto animate-fade-in-up">
                     <h2 className="text-4xl md:text-6xl font-black mb-8 text-white">
                         Ready to Transform Your Practice?
                     </h2>

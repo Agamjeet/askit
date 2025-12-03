@@ -1,8 +1,10 @@
+'use client';
+
 export default function VideoSection() {
     return (
         <section className="py-32 bg-black">
             <div className="container mx-auto px-4">
-                <div className="max-w-5xl mx-auto">
+                <div className="max-w-5xl mx-auto animate-fade-in-up">
                     <div className="flex items-end justify-between mb-12 border-b border-white/10 pb-8">
                         <h2 className="text-4xl font-bold">Patient Experience Demo</h2>
                         <div className="text-right hidden md:block">
