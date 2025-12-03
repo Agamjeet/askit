@@ -7,7 +7,7 @@ export default function Stats() {
                         The Cost of <span className="text-red-500">Missed Calls</span>
                     </h2>
                     <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-                        In today's on-demand world, patients expect immediate answers. Voicemail is a dead end.
+                        In today&apos;s on-demand world, patients expect immediate answers. Voicemail is a dead end.
                     </p>
                 </div>
 
@@ -19,7 +19,7 @@ export default function Stats() {
                         </div>
                         <h3 className="text-xl font-bold text-gray-200 mb-2">Calls Missed</h3>
                         <p className="text-gray-500 leading-relaxed">
-                            Nearly one-third of all calls to medical practices go to voicemail or hang up. That's lost revenue.
+                            Nearly one-third of all calls to medical practices go to voicemail or hang up. That&apos;s lost revenue.
                         </p>
                     </div>
 

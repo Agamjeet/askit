@@ -20,7 +20,7 @@ export default function Offer() {
                         </p>
 
                         <p className="text-xl text-gray-600 mb-12 leading-relaxed">
-                            We don't just sell software; we partner with your practice. Let us deploy a custom-trained medical voice agent that understands your specific protocols, insurance lists, and scheduling rules.
+                            We don&apos;t just sell software; we partner with your practice. Let us deploy a custom-trained medical voice agent that understands your specific protocols, insurance lists, and scheduling rules.
                         </p>
 
                         <div className="grid grid-cols-5 gap-4 max-w-lg mx-auto mb-12">

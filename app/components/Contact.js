@@ -7,7 +7,7 @@ export default function Contact() {
                         Ready to Transform Your Practice?
                     </h2>
                     <p className="text-xl text-gray-400 mb-12 leading-relaxed">
-                        Let's discuss how Vavework can help your clinic capture every patient opportunity. Drop us a line.
+                        Let&apos;s discuss how Vavework can help your clinic capture every patient opportunity. Drop us a line.
                     </p>
 
                     <div className="inline-block p-8 border-2 border-white/20 rounded-2xl bg-white/5 backdrop-blur-sm">
