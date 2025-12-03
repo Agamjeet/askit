@@ -5,6 +5,7 @@ import Stats from "./components/Stats";
 import Offer from "./components/Offer";
 import VideoSection from "./components/VideoSection";
 import Philosophy from "./components/Philosophy";
+import Contact from "./components/Contact";
 
 export default function AgencyLanding() {
   return (
@@ -15,6 +16,7 @@ export default function AgencyLanding() {
       <Offer />
       <VideoSection />
       <Philosophy />
+      <Contact />
       <Footer />
     </div>
   );

@@ -14,9 +14,9 @@ export default function Navbar() {
       </div>
 
       <div className="navbar-end gap-3">
-        <Link href="mailto:contact@vavework.com" className="btn btn-white bg-white text-black hover:bg-gray-200 font-bold rounded-full px-8 border-none">
+        <a href="#contact" className="btn btn-white bg-white text-black hover:bg-gray-200 font-bold rounded-full px-8 border-none">
           Reach Out
-        </Link>
+        </a>
       </div>
     </div>
   );

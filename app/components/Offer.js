@@ -23,12 +23,14 @@ export default function Offer() {
                             We don't just sell software; we partner with your practice. Let us deploy a custom-trained medical voice agent that understands your specific protocols, insurance lists, and scheduling rules.
                         </p>
 
-                        <div className="grid grid-cols-3 gap-4 max-w-lg mx-auto mb-12">
+                        <div className="grid grid-cols-5 gap-4 max-w-lg mx-auto mb-12">
                             <div className="h-2 bg-black w-full"></div>
                             <div className="h-2 bg-black w-full"></div>
-                            <div className="h-2 bg-gray-200 w-full"></div>
+                            <div className="h-2 bg-black w-full"></div>
+                            <div className="h-2 bg-black w-full"></div>
+                            <div className="h-2 bg-black w-full"></div>
                         </div>
-                        <p className="text-sm font-mono text-gray-500 uppercase tracking-widest">2 Spots Remaining</p>
+                        <p className="text-sm font-mono text-gray-500 uppercase tracking-widest">5 Spots Available</p>
                     </div>
                 </div>
             </div>
