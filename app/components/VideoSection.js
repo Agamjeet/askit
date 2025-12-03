@@ -14,7 +14,7 @@ export default function VideoSection() {
                     <div className="aspect-video w-full bg-gray-900 rounded-sm overflow-hidden border border-white/10 relative group">
                         <div className="absolute inset-0 bg-blue-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                         <iframe
-                            className="w-full h-full grayscale hover:grayscale-0 transition-all duration-700"
+                            className="w-full h-full transition-all duration-700"
                             src="https://www.youtube.com/embed/E73UhzfaAd8"
                             title="Vavework Demo"
                             frameBorder="0"

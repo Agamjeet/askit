@@ -1,8 +1,10 @@
+'use client';
+
 export default function Stats() {
     return (
         <section className="py-24 bg-zinc-900 border-y border-white/5">
             <div className="container mx-auto px-4">
-                <div className="text-center mb-16">
+                <div className="text-center mb-16 animate-fade-in-up">
                     <h2 className="text-3xl md:text-5xl font-bold mb-6 text-white">
                         The Cost of <span className="text-red-500">Missed Calls</span>
                     </h2>
@@ -13,7 +15,7 @@ export default function Stats() {
 
                 <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
                     {/* Stat 1 */}
-                    <div className="p-8 border border-white/10 bg-black/50 backdrop-blur-sm rounded-2xl hover:border-blue-500/50 transition-colors duration-300">
+                    <div className="p-8 border border-white/10 bg-black/50 backdrop-blur-sm rounded-2xl hover:border-blue-500/50 transition-colors duration-300 animate-fade-in-up animate-delay-100">
                         <div className="text-5xl md:text-6xl font-black text-white mb-4 tracking-tighter">
                             32%
                         </div>
@@ -24,7 +26,7 @@ export default function Stats() {
                     </div>
 
                     {/* Stat 2 */}
-                    <div className="p-8 border border-white/10 bg-black/50 backdrop-blur-sm rounded-2xl hover:border-blue-500/50 transition-colors duration-300">
+                    <div className="p-8 border border-white/10 bg-black/50 backdrop-blur-sm rounded-2xl hover:border-blue-500/50 transition-colors duration-300 animate-fade-in-up animate-delay-200">
                         <div className="text-5xl md:text-6xl font-black text-blue-500 mb-4 tracking-tighter">
                             $50k
                         </div>
@@ -35,7 +37,7 @@ export default function Stats() {
                     </div>
 
                     {/* Stat 3 */}
-                    <div className="p-8 border border-white/10 bg-black/50 backdrop-blur-sm rounded-2xl hover:border-blue-500/50 transition-colors duration-300">
+                    <div className="p-8 border border-white/10 bg-black/50 backdrop-blur-sm rounded-2xl hover:border-blue-500/50 transition-colors duration-300 animate-fade-in-up animate-delay-300">
                         <div className="text-5xl md:text-6xl font-black text-green-500 mb-4 tracking-tighter">
                             24/7
                         </div>

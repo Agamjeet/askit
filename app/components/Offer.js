@@ -10,7 +10,7 @@ export default function Offer() {
                     </h2>
 
                     <div className="border-4 border-black p-8 md:p-16 relative">
-                        <div className="absolute -top-6 left-1/2 -translate-x-1/2 bg-black text-white px-6 py-2 font-bold uppercase tracking-widest">
+                        <div className="absolute -top-6 left-1/2 -translate-x-1/2 bg-black text-white px-4 md:px-6 py-1 md:py-2 font-bold uppercase tracking-widest text-xs md:text-sm">
                             Doctors Only
                         </div>
 
