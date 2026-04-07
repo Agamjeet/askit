@@ -9,7 +9,7 @@ import Contact from "./components/Contact";
 
 export default function AgencyLanding() {
   return (
-    <div className="min-h-screen bg-black text-white font-sans selection:bg-white selection:text-black">
+    <div className="min-h-screen bg-white text-zinc-900 font-sans selection:bg-yellow-300 selection:text-zinc-900">
       <Navbar />
       <Hero />
       <Stats />

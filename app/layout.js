@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Vavework - AI Medical Receptionist",
-  description: "24/7 HIPAA-compliant AI receptionist for medical clinics. Automate appointments, verify insurance, and reduce no-shows.",
+  title: "Ask It - Medicines on WhatsApp",
+  description: "Ask It helps people get medicines on WhatsApp by comparing prices from nearby vendors and sharing the best options fast.",
 };
 
 export default function RootLayout({ children }) {

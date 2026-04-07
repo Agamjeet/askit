@@ -2,48 +2,48 @@
 
 export default function Stats() {
     return (
-        <section className="py-24 bg-zinc-900 border-y border-white/5">
+        <section className="py-24 bg-yellow-50 border-y border-yellow-200">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-16 animate-fade-in-up">
-                    <h2 className="text-3xl md:text-5xl font-bold mb-6 text-white">
-                        The Cost of <span className="text-red-500">Missed Calls</span>
+                    <h2 className="text-3xl md:text-5xl font-bold mb-6 text-zinc-900">
+                        Why people use <span className="text-yellow-600">Ask It</span>
                     </h2>
-                    <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-                        In today&apos;s on-demand world, patients expect immediate answers. Voicemail is a dead end.
+                    <p className="text-xl text-zinc-700 max-w-2xl mx-auto">
+                        We make medicine buying easier by checking nearby vendor prices for you in one WhatsApp flow.
                     </p>
                 </div>
 
                 <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
                     {/* Stat 1 */}
-                    <div className="p-8 border border-white/10 bg-black/50 backdrop-blur-sm rounded-2xl hover:border-blue-500/50 transition-colors duration-300 animate-fade-in-up animate-delay-100">
-                        <div className="text-5xl md:text-6xl font-black text-white mb-4 tracking-tighter">
-                            32%
+                    <div className="p-8 border border-yellow-200 bg-white rounded-2xl hover:border-yellow-400 transition-colors duration-300 animate-fade-in-up animate-delay-100">
+                        <div className="text-5xl md:text-6xl font-black text-zinc-900 mb-4 tracking-tighter">
+                            1 Chat
                         </div>
-                        <h3 className="text-xl font-bold text-gray-200 mb-2">Calls Missed</h3>
-                        <p className="text-gray-500 leading-relaxed">
-                            Nearly one-third of all calls to medical practices go to voicemail or hang up. That&apos;s lost revenue.
+                        <h3 className="text-xl font-bold text-zinc-800 mb-2">Simple Start</h3>
+                        <p className="text-zinc-600 leading-relaxed">
+                            Just message us on WhatsApp with your medicine list or prescription.
                         </p>
                     </div>
 
                     {/* Stat 2 */}
-                    <div className="p-8 border border-white/10 bg-black/50 backdrop-blur-sm rounded-2xl hover:border-blue-500/50 transition-colors duration-300 animate-fade-in-up animate-delay-200">
-                        <div className="text-5xl md:text-6xl font-black text-blue-500 mb-4 tracking-tighter">
-                            $50k
+                    <div className="p-8 border border-yellow-200 bg-white rounded-2xl hover:border-yellow-400 transition-colors duration-300 animate-fade-in-up animate-delay-200">
+                        <div className="text-5xl md:text-6xl font-black text-yellow-600 mb-4 tracking-tighter">
+                            Nearby
                         </div>
-                        <h3 className="text-xl font-bold text-gray-200 mb-2">Lost Revenue</h3>
-                        <p className="text-gray-500 leading-relaxed">
-                            Average annual revenue lost per provider due to missed appointments and uncaptured leads.
+                        <h3 className="text-xl font-bold text-zinc-800 mb-2">Local Vendors</h3>
+                        <p className="text-zinc-600 leading-relaxed">
+                            We compare medicine prices from vendors near your location.
                         </p>
                     </div>
 
                     {/* Stat 3 */}
-                    <div className="p-8 border border-white/10 bg-black/50 backdrop-blur-sm rounded-2xl hover:border-blue-500/50 transition-colors duration-300 animate-fade-in-up animate-delay-300">
-                        <div className="text-5xl md:text-6xl font-black text-green-500 mb-4 tracking-tighter">
-                            24/7
+                    <div className="p-8 border border-yellow-200 bg-white rounded-2xl hover:border-yellow-400 transition-colors duration-300 animate-fade-in-up animate-delay-300">
+                        <div className="text-5xl md:text-6xl font-black text-zinc-900 mb-4 tracking-tighter">
+                            Best Price
                         </div>
-                        <h3 className="text-xl font-bold text-gray-200 mb-2">Patient Access</h3>
-                        <p className="text-gray-500 leading-relaxed">
-                            Clinics with after-hours booking see a 40% increase in patient retention and satisfaction.
+                        <h3 className="text-xl font-bold text-zinc-800 mb-2">Clear Comparison</h3>
+                        <p className="text-zinc-600 leading-relaxed">
+                            You get side-by-side options so you can choose what works best for your budget.
                         </p>
                     </div>
                 </div>
