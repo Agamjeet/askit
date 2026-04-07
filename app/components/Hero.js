@@ -13,7 +13,7 @@ export default function Hero() {
                 <h1 className="text-7xl md:text-9xl font-black tracking-tighter mb-8 leading-none">
                     ASK IT<br />
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-yellow-400 to-zinc-900">
-                        MEDICINES ON WHATSAPP.
+                        MEDICINES ON WHATSAPP
                     </span>
                 </h1>
 

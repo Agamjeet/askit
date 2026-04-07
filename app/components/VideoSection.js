@@ -13,7 +13,7 @@ export default function VideoSection() {
                         </div>
                     </div>
 
-                    <div className="aspect-video w-full bg-zinc-100 rounded-sm overflow-hidden border border-yellow-200 relative group">
+                    <div className="aspect-[4/5] w-full bg-zinc-100 rounded-sm overflow-hidden border border-yellow-200 relative group">
                         <div className="absolute inset-0 bg-yellow-300/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                         <iframe
                             className="w-full h-full transition-all duration-700"
